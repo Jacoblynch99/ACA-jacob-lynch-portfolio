@@ -1,0 +1,61 @@
+.background-whole {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(StarryNight-mobile.jpg) no-repeat;
+    background-size: 100vh;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 4fr 8fr 1fr;
+    height: 150vh;   
+    
+}
+
+.header {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    grid-template-rows: 1fr 2fr 1fr;
+    
+}
+
+.h1-font {
+    font-size: 150%;
+    margin: auto;
+}
+
+.span {
+    display: block;
+}
+
+.h2-font {
+    font-size: 125%;
+    margin: auto;
+}
+
+.profile-pic {
+    height: 55%;
+    width: 95%;
+    border-radius: 50%;
+    background-image: url(myProfilePic.jpg);
+    background-size: 100%;
+    transform: rotate(90deg); /*this is purposeful, NO TOUCH*/    
+}
+
+.main {
+grid-row: 2/3;
+grid-column: 2/3;
+grid-template-rows: repeat(4, 1fr);
+align-items: center;
+justify-items: center;
+}
+
+.background-button {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(StarryNight-button.jpg);
+    border-radius: 25%;
+    white-space: nowrap;
+    height: 100%;
+    width: 200%;
+    margin-left: -50%;
+}
+
+.footer {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+

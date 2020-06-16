@@ -1,0 +1,63 @@
+.background-whole {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(StarryNight-tablet.jpg) no-repeat;
+    grid-template-rows: 9fr 1fr;
+    grid-template-columns: none;
+    background-size: 100%;
+}
+
+.header {
+grid-template-rows: 2fr 1fr;
+grid-template-columns: 1fr 1fr;
+}
+
+.h1-font{
+    font-size: 300%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.h2-font {
+    font-size: 250%;
+    grid-column: 1/4 ;
+    grid-row: 3/4 ;
+}
+
+.span {
+    display: inline;
+}
+
+.profile-pic {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    height: 125%;
+    width: 80%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.main {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.background-button {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(StarryNight-button.jpg);
+    border-radius: 25%;
+    white-space: nowrap;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    width: 250%;
+    margin-left: -50%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+}
+
+.footer {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+}
